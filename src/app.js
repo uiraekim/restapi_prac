@@ -6,7 +6,8 @@ import cookieParser from 'cookie-parser'
 import logger from 'morgan'
 import v1Route from './routes/v1'
 
-const app = express()
+const app = express();
+
 
 app.use(logger('dev'))
 app.use(express.json())
